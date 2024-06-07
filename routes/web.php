@@ -12,17 +12,16 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
 // route in laravel 9
-Route::controller(EmployeeController::class)->group(function(){
-
-    Route::get('/','index');
-
-    Route::post('post','store');
-
+Route::controller(EmployeeController::class)->group(function () {
+    Route::get('/', 'index')->name('home');
+    Route::post('post', 'store')->name('store');
+    Route::get('popup', 'popup')->name('popup');
+    Route::post('sendMail', 'sendMail')->name('sendMail');
 });
