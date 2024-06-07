@@ -22,6 +22,6 @@ use Illuminate\Support\Facades\Route;
 Route::controller(EmployeeController::class)->group(function () {
     Route::get('/', 'index')->name('home');
     Route::post('post', 'store')->name('store');
-    Route::get('popup', 'popup')->name('popup');
-    Route::post('sendMail', 'sendMail')->name('sendMail');
+    // Route::get('popup', 'popup')->name('popup');
+    // Route::post('sendMail', 'sendMail')->name('sendMail');
 });
