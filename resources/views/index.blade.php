@@ -198,6 +198,61 @@
         .singleQuestion {
             margin-bottom: 3rem;
         }
+
+        .modalHeader {
+            padding: 2.25rem;
+            background: #153148;
+            border-radius: 2rem;
+        }
+
+        .modalHeader h1 {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #fff;
+            padding: 1.25rem 0;
+        }
+
+        .modalHeader p {
+            font-size: 2.1rem;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        .innerTitle {
+            font-size: 2.8rem;
+            font-weight: bold;
+            color: #153148;
+        }
+
+        .singleInput {
+            padding: 1rem 0;
+        }
+
+        .singleInput label {
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #153148;
+            margin-bottom: 0.75rem;
+        }
+
+        .singleInput input {
+            font-size: 1.8rem;
+            padding: 0.75rem 1rem;
+        }
+
+        .submitBtnDone {
+            background: #153148;
+            color: #fff;
+            padding: 0.75rem 4rem !important;
+            font-size: 1.75rem;
+            font-weight: 600;
+        }
+        .modal-content{
+            border-radius: 1.5rem;
+        }
+        .submitBtnDone:hover{
+            color: #fff;
+        }
     </style>
 
 </head>
@@ -587,6 +642,53 @@
                         </div>
                     </div>
 
+                    <div class="form-section">
+                        <div class="modal-content px-4 pt-4">
+                            <div class="modalHeader text-center">
+                                <img src="{{ asset('logo.png') }}" alt="logo" class="img-fluid">
+                                <h1 class="modal-title" id="exampleModalLabel">Congratulations!</h1>
+                                <p class="modalTxt">
+                                    You’ve successfully completed The BD Consultants <br> Business Health Check
+                                </p>
+                            </div>
+                            <div class="modal-body">
+                                <h3 class="innerTitle">Where should we send your results?</h3>
+
+                                {{-- <form action="{{ route('store') }}" method="POST"> --}}
+                                    {{-- @csrf --}}
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="singleInput">
+                                                <label for="fname">First Name</label>
+                                                <input type="text" name="name" id="fname"
+                                                    class="form-control" placeholder="First Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="singleInput">
+                                                <label for="fname">Last Name</label>
+                                                <input type="text" name="lname" id="lname"
+                                                    class="form-control" placeholder="Last Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="singleInput">
+                                                <label for="email">Email</label>
+                                                <input type="mail" name="email" id="email"
+                                                    class="form-control" placeholder="Email" required>
+                                            </div>
+
+                                            <div class="singleInput text-center">
+                                                {{-- <input type="submit" value="Done" class="btn submitBtnDone"> --}}
+
+                                                <button type="submit" class="btn submitBtnDone">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {{-- </form> --}}
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="form-navigation mt-3">
                         <div class="d-flex align-items-center justify-content-between mt-5">
@@ -594,7 +696,7 @@
                                 <img src="{{ asset('arrow-left.png') }}" alt="arrowLeft" class="img-fluid">
                             </button>
                             <button type="button" class="next continueBtn btn">Continue</button>
-                            <button type="submit" class="btn continueBtn float-right">Submit</button>
+                            {{-- <button type="submit" class="btn continueBtn float-right">Submit</button> --}}
                         </div>
                     </div>
                 </form>
