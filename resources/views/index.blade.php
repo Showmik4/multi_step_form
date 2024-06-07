@@ -52,10 +52,16 @@
                     <form action="/post" method="post" class="employee-form">
                         @csrf
                         <div class="form-section">
-                            <label for="">Name:</label>
-                            <input type="text" class="form-control mb-3" name="name" required>
-                            <label for="">Last Name:</label>
-                            <input type="text" class="form-control mb-3" name="last_name" required>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            </div>
                         </div>
                         <div class="form-section">
                             <label for="">E-mail:</label>
