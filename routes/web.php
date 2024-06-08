@@ -23,6 +23,8 @@ Route::controller(EmployeeController::class)->group(function () {
 
 Route::group(['middleware' => 'auth'], function () {
 Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+Route::get('/reports', [DashboardController::class, 'report_view'])->name('reports');
+Route::post('/report_list', [DashboardController::class, 'report_list'])->name('report_list');
 
 });
 

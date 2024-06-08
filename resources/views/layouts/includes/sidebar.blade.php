@@ -11,6 +11,12 @@
                         <span> Dashboard </span>
                     </a>
                 </li>
+                <li>
+                    <a href="{{ route('reports') }}">
+                        <i data-feather="airplay"></i>
+                        <span> Reports </span>
+                    </a>
+                </li>
             </ul>
         </div>
         <!-- End Sidebar -->
