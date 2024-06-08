@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\EmployeeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,14 +16,16 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// route in laravel 9
 Route::controller(EmployeeController::class)->group(function () {
     Route::get('/', 'index')->name('home');
     Route::post('submit_form', 'store')->name('submit_form');
-    // Route::get('popup', 'popup')->name('popup');
-    // Route::post('sendMail', 'sendMail')->name('sendMail');
 });
+
+Route::group(['middleware' => 'auth'], function () {
+Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+
+});
+
+Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

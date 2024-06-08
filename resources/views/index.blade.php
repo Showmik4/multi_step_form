@@ -13,7 +13,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js"
         integrity="sha512-eyHL1atYNycXNXZMDndxrDhNAegH2BDWt1TmkXJPoGf1WLlNYt08CSjkqF5lnCRmdm3IrkHid8s2jOUY4NIZVQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" type="text/css" href="{{ url('/public/assets/css/toastr.min.css') }}">
 
     <style>
         html {
@@ -277,7 +276,7 @@
                     <div class="form-section">
                         <div class="introFirstPage">
                             <div class="logo py-5">
-                                <img src="{{ asset('logo.png') }}" alt="logo" class="img-fluid">
+                                <img src="{{ asset('public/logo.png')}}" alt="logo" class="img-fluid">
                             </div>
 
                             <div class="content">
@@ -289,7 +288,7 @@
                                     completion.
                                 </p>
                                 <p class="estimate align-items-center">
-                                    <img src="{{ asset('clock.png') }}" alt="cloeck" class="img-fluid">
+                                    <img src="{{ asset('public/clock.png') }}" alt="cloeck" class="img-fluid">
                                     Estimated time to completion 10 minutes
                                 </p>
                             </div>
@@ -298,7 +297,8 @@
                     <div class="form-section">
                         <div class="logoAndProgress">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('logo.png') }}" alt="logo" class="img-fluid" style="width: 10rem;">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
                                 <div class="progressCtrl align-items-center w-100 d-flex">
                                     <p class="progressTrack px-4">
                                         11%
@@ -349,7 +349,7 @@
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
-                                        <img src="{{ asset('left.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
                                         <span class="text-center">
                                             Unlikely
                                         </span>
@@ -359,7 +359,7 @@
                                         <span class="text-center">
                                             Absolutely
                                         </span>
-                                        <img src="{{ asset('right.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
                                     </p>
                                 </div>
                             </div>
@@ -397,7 +397,7 @@
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
-                                        <img src="{{ asset('left.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
                                         <span class="text-center">
                                             Less than 1 <br> year
                                         </span>
@@ -407,7 +407,7 @@
                                         <span class="text-center">
                                             More than 5 <br> years
                                         </span>
-                                        <img src="{{ asset('right.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
                                     </p>
                                 </div>
                             </div>
@@ -416,7 +416,8 @@
                     <div class="form-section">
                         <div class="logoAndProgress">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('logo.png') }}" alt="logo" class="img-fluid" style="width: 10rem;">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
                                 <div class="progressCtrl align-items-center w-100 d-flex">
                                     <p class="progressTrack px-4">
                                         19%
@@ -467,7 +468,7 @@
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
-                                        <img src="{{ asset('left.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
                                         <span class="text-center">
                                             Unlikely
                                         </span>
@@ -477,7 +478,7 @@
                                         <span class="text-center">
                                             Absolutely
                                         </span>
-                                        <img src="{{ asset('right.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
                                     </p>
                                 </div>
                             </div>
@@ -519,7 +520,7 @@
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
-                                        <img src="{{ asset('left.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
                                         <span class="text-center">
                                             Less than 1 <br> year
                                         </span>
@@ -529,7 +530,7 @@
                                         <span class="text-center">
                                             More than 5 <br> years
                                         </span>
-                                        <img src="{{ asset('right.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
                                     </p>
                                 </div>
                             </div>
@@ -540,7 +541,8 @@
                     <div class="form-section">
                         <div class="logoAndProgress">
                             <div class="d-flex align-items-center">
-                                <img src="{{ asset('logo.png') }}" alt="logo" class="img-fluid" style="width: 10rem;">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
                                 <div class="progressCtrl align-items-center w-100 d-flex">
                                     <p class="progressTrack px-4">
                                         26%
@@ -592,7 +594,7 @@
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
-                                        <img src="{{ asset('left.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
                                         <span class="text-center">
                                             Rarely
                                         </span>
@@ -602,7 +604,7 @@
                                         <span class="text-center">
                                             Regularly
                                         </span>
-                                        <img src="{{ asset('right.png') }}" alt="left" class="img-fluid">
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
                                     </p>
                                 </div>
                             </div>
@@ -653,7 +655,7 @@
                     <div class="form-section">
                         <div class="modal-content px-4 pt-4">
                             <div class="modalHeader text-center">
-                                <img src="{{ asset('logo.png') }}" alt="logo" class="img-fluid">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid">
                                 <h1 class="modal-title" id="exampleModalLabel">Congratulations!</h1>
                                 <p class="modalTxt">
                                     You’ve successfully completed The BD Consultants <br> Business Health Check
@@ -702,7 +704,7 @@
                     <div class="form-navigation mt-3">
                         <div class="d-flex align-items-center justify-content-between mt-5">
                             <button type="button" class="previous backBtn btn">
-                                <img src="{{ asset('arrow-left.png') }}" alt="arrowLeft" class="img-fluid">
+                                <img src="{{ asset('public/arrow-left.png') }}" alt="arrowLeft" class="img-fluid">
                             </button>
                             <button type="button" class="next continueBtn btn">Continue</button>
                             {{-- <button type="submit" class="btn continueBtn float-right">Submit</button> --}}
