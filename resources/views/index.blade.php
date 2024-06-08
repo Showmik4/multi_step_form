@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js"
         integrity="sha512-eyHL1atYNycXNXZMDndxrDhNAegH2BDWt1TmkXJPoGf1WLlNYt08CSjkqF5lnCRmdm3IrkHid8s2jOUY4NIZVQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <link rel="stylesheet" type="text/css" href="{{ url('/public/assets/css/toastr.min.css') }}">
 
     <style>
         html {
@@ -247,10 +247,12 @@
             font-size: 1.75rem;
             font-weight: 600;
         }
-        .modal-content{
+
+        .modal-content {
             border-radius: 1.5rem;
         }
-        .submitBtnDone:hover{
+
+        .submitBtnDone:hover {
             color: #fff;
         }
     </style>
@@ -270,7 +272,7 @@
                     <label class="nav-link shadow-sm step2   border ml-2 ">Step Four</label>
                 </div>
 
-                <form action="/post" method="post" class="employee-form">
+                <form action="{{route('submit_form')}}" method="post" class="employee-form">
                     @csrf
                     <div class="form-section">
                         <div class="introFirstPage">
@@ -320,29 +322,30 @@
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
                                     <div class="single">
-                                        <input type="radio" value="1" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="1" name="marks1" id="" class="form-check-input">
                                         <span class="markTxt d-block">1</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="2" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="2" name="marks1" id="" class="form-check-input">
                                         <span class="markTxt d-block">2</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="3" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="3" name="marks1" id="" class="form-check-input">
                                         <span class="markTxt d-block">3</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="4" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="4" name="marks1" id="" class="form-check-input">
                                         <span class="markTxt d-block">4</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="5" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="5" name="marks1" id="" class="form-check-input">
                                         <span class="markTxt d-block">5</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="6" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="0" name="marks1" id="" class="form-check-input">
                                         <span class="markTxt d-block">N/A</span>
                                     </div>
+                                    <input type="hidden" value="5" name="total_marks1">
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
@@ -367,29 +370,30 @@
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
                                     <div class="single">
-                                        <input type="radio" value="1" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="1" name="marks2" id="" class="form-check-input">
                                         <span class="markTxt d-block">1</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="2" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="2" name="marks2" id="" class="form-check-input">
                                         <span class="markTxt d-block">2</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="3" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="3" name="marks2" id="" class="form-check-input">
                                         <span class="markTxt d-block">3</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="4" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="4" name="marks2" id="" class="form-check-input">
                                         <span class="markTxt d-block">4</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="5" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="5" name="marks2" id="" class="form-check-input">
                                         <span class="markTxt d-block">5</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="6" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="0" name="marks2" id="" class="form-check-input">
                                         <span class="markTxt d-block">N/A</span>
                                     </div>
+                                    <input type="hidden" value="5" name="total_marks2">
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
@@ -436,29 +440,30 @@
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
                                     <div class="single">
-                                        <input type="radio" value="1" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="1" name="marks3" id="" class="form-check-input">
                                         <span class="markTxt d-block">1</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="2" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="2" name="marks3" id="" class="form-check-input">
                                         <span class="markTxt d-block">2</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="3" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="3" name="marks3" id="" class="form-check-input">
                                         <span class="markTxt d-block">3</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="4" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="4" name="marks3" id="" class="form-check-input">
                                         <span class="markTxt d-block">4</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="5" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="5" name="marks3" id="" class="form-check-input">
                                         <span class="markTxt d-block">5</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="6" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="0" name="marks3" id="" class="form-check-input">
                                         <span class="markTxt d-block">N/A</span>
                                     </div>
+                                    <input type="hidden" value="5" name="total_marks3">
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
@@ -487,29 +492,30 @@
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
                                     <div class="single">
-                                        <input type="radio" value="1" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="1" name="marks4" id="" class="form-check-input">
                                         <span class="markTxt d-block">1</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="2" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="2" name="marks4" id="" class="form-check-input">
                                         <span class="markTxt d-block">2</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="3" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="3" name="marks4" id="" class="form-check-input">
                                         <span class="markTxt d-block">3</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="4" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="4" name="marks4" id="" class="form-check-input">
                                         <span class="markTxt d-block">4</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="5" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="5" name="marks4" id="" class="form-check-input">
                                         <span class="markTxt d-block">5</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="6" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="0" name="marks4" id="" class="form-check-input">
                                         <span class="markTxt d-block">N/A</span>
                                     </div>
+                                    <input type="hidden" value="5" name="total_marks4">
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
@@ -559,29 +565,30 @@
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
                                     <div class="single">
-                                        <input type="radio" value="1" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
                                         <span class="markTxt d-block">1</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="2" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
                                         <span class="markTxt d-block">2</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="3" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
                                         <span class="markTxt d-block">3</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="4" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
                                         <span class="markTxt d-block">4</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="5" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
                                         <span class="markTxt d-block">5</span>
                                     </div>
                                     <div class="single">
-                                        <input type="radio" value="6" name="q-1" id="" class="form-check-input">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
                                         <span class="markTxt d-block">N/A</span>
                                     </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                                 <div class="instraction d-flex align-items-center justify-content-between">
                                     <p class="d-flex align-items-center">
@@ -612,31 +619,32 @@
                                 <div class="options py-4 justify-content-between ps-5">
                                     <div class="single align-items-start mb-3">
                                         <div class="d-flex">
-                                            <input type="radio" value="1" name="q-1" id="" class="form-check-input">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
                                             <span class="markTxt mt-0 ml-4">Sell</span>
                                         </div>
                                     </div>
 
                                     <div class="single align-items-start mb-3">
                                         <div class="d-flex">
-                                            <input type="radio" value="1" name="q-1" id="" class="form-check-input">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
                                             <span class="markTxt mt-0 ml-4">Pass on</span>
                                         </div>
                                     </div>
 
                                     <div class="single align-items-start mb-3">
                                         <div class="d-flex">
-                                            <input type="radio" value="1" name="q-1" id="" class="form-check-input">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
                                             <span class="markTxt mt-0 ml-4">Close</span>
                                         </div>
                                     </div>
 
                                     <div class="single align-items-start mb-3">
                                         <div class="d-flex">
-                                            <input type="radio" value="1" name="q-1" id="" class="form-check-input">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
                                             <span class="markTxt mt-0 ml-4">Others</span>
                                         </div>
                                     </div>
+                                    <input type="hidden" value="4" name="total_marks6">
                                 </div>
                             </div>
                         </div>
@@ -660,22 +668,22 @@
                                         <div class="col-6">
                                             <div class="singleInput">
                                                 <label for="fname">First Name</label>
-                                                <input type="text" name="name" id="fname"
-                                                    class="form-control" placeholder="First Name" required>
+                                                <input type="text" name="first_name" id="fname" class="form-control"
+                                                    placeholder="First Name" required>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="singleInput">
                                                 <label for="fname">Last Name</label>
-                                                <input type="text" name="lname" id="lname"
-                                                    class="form-control" placeholder="Last Name" required>
+                                                <input type="text" name="last_name" id="lname" class="form-control"
+                                                    placeholder="Last Name" required>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="singleInput">
                                                 <label for="email">Email</label>
-                                                <input type="mail" name="email" id="email"
-                                                    class="form-control" placeholder="Email" required>
+                                                <input type="mail" name="email" id="email" class="form-control"
+                                                    placeholder="Email" required>
                                             </div>
 
                                             <div class="singleInput text-center">
@@ -685,7 +693,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                {{-- </form> --}}
+                                    {{--
+                                </form> --}}
                             </div>
                         </div>
                     </div>
@@ -748,6 +757,32 @@
             });
             navigateTo(0);
         });
+    </script>
+
+    <script src="{{url('/public/assets/js/toastr.min.js')}}"></script>
+    <script>
+        @if(session('message'))
+        toastr.info('{{session('message')}}')
+        @endif
+        @if(session('warning'))
+        toastr.warning('{{session('warning')}}')
+        @endif
+        @if(session('success'))
+        toastr.success('{{session('success')}}')
+        @endif
+        @if(session('danger'))
+        toastr.error('{{session('danger')}}')
+        @endif
+
+        //Jquery On ecnyer event bonding
+        (function($) {
+            $.fn.onEnter = function(func) {
+                this.bind('keypress', function(e) {
+                    if (e.keyCode === 13) func.apply(this, [e]);
+                });
+                return this;
+            };
+            })(jQuery);
     </script>
 
 

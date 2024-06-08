@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 // route in laravel 9
 Route::controller(EmployeeController::class)->group(function () {
     Route::get('/', 'index')->name('home');
-    Route::post('post', 'store')->name('store');
+    Route::post('submit_form', 'store')->name('submit_form');
     // Route::get('popup', 'popup')->name('popup');
     // Route::post('sendMail', 'sendMail')->name('sendMail');
 });
