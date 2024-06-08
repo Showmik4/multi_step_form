@@ -3,7 +3,7 @@
     @if (\Request::route()->getName() == 'home')
     <title>Dashboard | BDC</title>
     @else
-    <title>@yield('title') | Neroverse</title>
+    <title>@yield('title') | BDC</title>
     @endif
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="" />
