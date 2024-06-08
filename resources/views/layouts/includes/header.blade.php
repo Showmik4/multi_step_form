@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8" />
     @if (\Request::route()->getName() == 'home')
-    <title>Dashboard | Neroverse</title>
+    <title>Dashboard | BDC</title>
     @else
     <title>@yield('title') | Neroverse</title>
     @endif
