@@ -269,6 +269,9 @@
                     <label class="nav-link shadow-sm step1   border ml-2 ">Step Two</label>
                     <label class="nav-link shadow-sm step2   border ml-2 ">Step Three</label>
                     <label class="nav-link shadow-sm step2   border ml-2 ">Step Four</label>
+                    <label class="nav-link shadow-sm step2   border ml-2 ">Step Four</label>
+                    <label class="nav-link shadow-sm step2   border ml-2 ">Step Four</label>
+                    <label class="nav-link shadow-sm step2   border ml-2 ">Step Four</label>
                 </div>
 
                 <form action="{{route('submit_form')}}" method="post" class="employee-form">
@@ -294,6 +297,9 @@
                             </div>
                         </div>
                     </div>
+
+                    {{-- ------------------ Business Prfile Page 1-------- --}}
+
                     <div class="form-section">
                         <div class="logoAndProgress">
                             <div class="d-flex align-items-center">
@@ -301,11 +307,11 @@
                                     style="width: 10rem;">
                                 <div class="progressCtrl align-items-center w-100 d-flex">
                                     <p class="progressTrack px-4">
-                                        11%
+                                        3%
                                     </p>
                                     <div class="progress w-100" role="progressbar" aria-label="Example with label"
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 11%"></div>
+                                        <div class="progress-bar" style="width: 3%"></div>
                                     </div>
                                 </div>
                             </div>
@@ -363,10 +369,377 @@
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    {{-- --------- Business Profile Page2-------------------------------- --}}
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        11%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 11%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>BUSINESS PROFILE</h4>
+                            </div>
 
                             <div class="singleQuestion">
                                 <p class="questionTitle">
-                                    1. How long has your business been operating for?
+                                    4.Do you expect your annual revenue/turnover to increase in the next 12 months?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks1">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Unlikely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Absolutely
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    5.Rate your business’s current strategy to acquire new customers or clients? 
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks1" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks1">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Unlikely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Absolutely
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    6.Rate your business’s current method of retention? (retaining current customers or
+                                    clients) 
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks2">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    7.Rate your business’s current processes and/or systems? 
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks2">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    8.
+                                    Rate your business’s current cashflow and/or working capital management?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks2">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    9.Rate your business’s current relationship with finance management, budgeting and
+                                    forecast modelling? 
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks2">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    10.Rate your business’s current staff and team productivity?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks2" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks2">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    11.If you were unable to work for 3 months due to a health-related reason, would the
+                                    business maintain full operation?
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
                                     <div class="single">
@@ -413,6 +786,8 @@
                             </div>
                         </div>
                     </div>
+
+
                     <div class="form-section">
                         <div class="logoAndProgress">
                             <div class="d-flex align-items-center">
@@ -430,14 +805,18 @@
                             </div>
                         </div>
 
+                        {{--- ----------------- Strategy Page 1 ------------------------------- --}}
+
                         <div class="questonBox">
                             <div class="startTitle">
                                 <h4>STRATEGY</h4>
                             </div>
-
+                            <div class="startTitle">
+                                <h3>Mission, Vission, Values</h3>
+                            </div>
                             <div class="singleQuestion">
                                 <p class="questionTitle">
-                                    4. Do you expect your annual revenue/turnover to increase in the next 12 months?
+                                    1. How clear well-understood is your company's mission and vision?
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
                                     <div class="single">
@@ -483,13 +862,298 @@
                                 </div>
                             </div>
 
-                            <div class="startTitle">
-                                <h3>Adaptability to Market Changes</h3>
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    2.Has your business defined its values?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks4">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
                             </div>
 
                             <div class="singleQuestion">
                                 <p class="questionTitle">
-                                    1. How long has your business been operating for?
+                                    3. How through is your understanding of your target market and it's need?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks4">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4. How specific and measurable are your strategic goals and objectives?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks4">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    5. How aware of your business's competitive advantages in the market?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks4">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    6. How Confident are you in your business strategic plan?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks4">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    7. How effectively do you identify,asses,mitigate risk in your strategic planning?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks4" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks4">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Less than 1 <br> year
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            More than 5 <br> years
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    8. How clear are the key performace indicators (KPIs) in measuring strategic
+                                    performace ?
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
                                     <div class="single">
@@ -537,7 +1201,7 @@
                         </div>
                     </div>
 
-
+                    {{-- --------------------- Strategy Page 2 ---------------------------- --}}
                     <div class="form-section">
                         <div class="logoAndProgress">
                             <div class="d-flex align-items-center">
@@ -558,6 +1222,10 @@
                         <div class="questonBox">
                             <div class="startTitle">
                                 <h4>STRATEGY</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Adaptability to Market Changes</h3>
                             </div>
 
                             <div class="singleQuestion">
@@ -609,14 +1277,4216 @@
                                 </div>
                             </div>
 
-                            <div class="startTitle">
-                                <h3>Adaptability to Market Changes</h3>
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    financial forecast modelling?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    financial forecast modelling?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    financial forecast modelling?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    financial forecast modelling?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    financial forecast modelling?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
                             </div>
 
                             <div class="singleQuestion">
                                 <p class="questionTitle">
                                     15. As a business owner, we must always plan to exit. Accordingly, would you prefer
                                     to sell, pass on or close the business?
+                                </p>
+                                <div class="options py-4 justify-content-between ps-5">
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Sell</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Pass on</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Close</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Others</span>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" value="4" name="total_marks6">
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                    {{-- ------------------------ Customer Page 1------------ --}}
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        34%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 34%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>CUSTOMERS</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Satisfaction</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    1.
+                                    How satisfied are your customers with your products/services?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    2.
+                                    How likely are your customers to recommend your business to others?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    3.
+                                    How would you rate the overall quality of your customer experience, from initial
+                                    interaction to completion/sale?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Feedback</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4.
+                                    How effective are your feedback collection methods?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    5.
+                                    How well do you respond to customer feedback and complaints?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Loyality</h3>
+                            </div>
+
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    6.
+                                    How loyal do you perceive your customer base to be?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Repeat Business</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    7. What amount of your revenue comes from repeat customers?
+                                </p>
+                                <div class="options py-4 justify-content-between ps-5">
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Sell</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Pass on</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Close</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Others</span>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" value="4" name="total_marks6">
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Lifetime Value (CLV)</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    8.
+                                    How effectively do you calculate and track customer lifetime value? 
+                                </p>
+                                <div class="options py-4 justify-content-between ps-5">
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Sell</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Pass on</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Close</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Others</span>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" value="4" name="total_marks6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- ------------------------ Customer Page 2--------------------- --}}
+
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        42%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 42%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>CUSTOMERS</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Communication Channels</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    9.
+                                    How effective are your communication channels with customers?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Competition Benchmarking</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    10.How does your customer experience compare to that of competitors?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    11.
+                                    Have you identified your business’s current key competitors and defined your
+                                    competitive advantage against each of them? 
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    12.
+                                    Does your business follow clear brand guidelines across the entire business? 
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    13.
+                                    How often does your business externally benchmark and internally recalculate prices?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Retention Strategies</h3>
+                            </div>
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    14.
+                                    How effective are your strategies for retaining existing customers?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    15.Do you know how many new customers you need to attract and convert every month to
+                                    reach your targeted revenue goals?
+                                </p>
+                                <div class="options py-4 justify-content-between ps-5">
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Sell</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Pass on</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Close</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Others</span>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" value="4" name="total_marks6">
+                                </div>
+                            </div>
+
+
+                            <div class="startTitle">
+                                <h3>Customer Referral Program</h3>
+                            </div>
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    16.
+                                    Do you have a customer referral program? If so, how successful is your referral
+                                    program in generating new customers?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {{-- ---------------------- Customer Page 3 ---------------------- --}}
+
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        49%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 49%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>CUSTOMERS</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Service Performance</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    17.
+                                    How would you rate the performance of your customer service team?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Success Metrics</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    18.
+                                    How effective are your metrics in measuring customer success and satisfaction?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3> Customer Engagement</h3>
+                            </div>
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    19.How engaged are your customers with your brand?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    20.
+                                    Are your advertising, marketing, PR and communications targets fully aligned with
+                                    your strategic plan goals and measures of success?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    21.
+                                    How effective is your current Organise Search (SEO) for generating sales leads?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    22.
+                                    How effective are your social media, media relations and digital advertising (paid
+                                    search/display ads) at generating sales leads?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3> Google or Trustpilot</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    23.What is your Google Business or Trust Pilot rating?
+                                </p>
+                                <div class="options py-4 justify-content-between ps-5">
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Sell</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Pass on</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Close</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Others</span>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" value="4" name="total_marks6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- --------------------------- Culture & People Page 1--------------------}}
+
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        56%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width:56%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>Culture & People</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Roles</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    1.Does your business have a defined and documented onboarding program for new team
+                                    members?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    2.How clear are the roles and responsibilities of each team member within the
+                                    business?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Clear Organisational Values</h3>
+                            </div>
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    3.How well-defined and understood are your company's values by employees?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="startTitle">
+                                <h3>Communication Effectiveness</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4.How effective is communication within your organisation?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Recognition and Rewards</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    6.How effectively do you recognise and reward employee contributions?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    7.How frequently do you review the productivity and capacity level of the people
+                                    working in your business?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {{-- ---------------------------- Culture & people page 2------------------------ --}}
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        60%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>CULTURE & PEOPLE</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Employee Morale</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    8.How would you rate the overall morale of your employees?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Trust in Leadership</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    9.How much trust do employees have in the leadership of your organisation?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    10.
+                                    How often do the business leaders carry out a ‘1 on 1’ catch up with team members?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Employee Satisfaction</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    11.
+                                    How satisfied are employees with the overall work environment?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    {{-- ------------------------- - Operations Page 1 -----------------}}
+
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        68%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 68%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>Operations</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Efficiency of process</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    1.How efficient are your business processes in delivering products/services?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    2.If the business doubled overnight, would you have the operational capacity to
+                                    manage the growth?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Quality Control Measures</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    3.How effective are your quality control measures in ensuring product/service
+                                    quality?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Inventory Management</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4.How well-managed is your inventory?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    financial forecast modelling?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="startTitle">
+                                <h3>Supply Chain Resilience</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    5.How resilient is your supply chain to disruptions and delays?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    6.Does your business have formal terms with your business-critical suppliers?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Production Capacity Utilization</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    7.Has your business defined its recurring processes? (purchasing, inventory,
+                                    production, sales method etc)
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Technology Integration</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    8.How well-integrated is technology in your operations to improve efficiency?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    {{-- ------------------ Operations page 2------------------------ --}}
+
+
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        74%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 74%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>Operations</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Health and Safety Compliance</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    9. How compliant are your operations with health and safety regulations?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Service Efficiency </h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    10. How efficient is your customer service in addressing inquiries and issues?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="startTitle">
+                                <h3>Cost Management </h3>
+                            </div>
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    11.How effectively do you manage operational costs to optimise profitability?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    12.
+                                    How many competitive quotes does your business seek from potential suppliers or when
+                                    making high-level purchases?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Flexibility and adaptability </h3>
+                            </div>
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    13. How adaptable are your operations to changing market conditions and demands?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    14.How frequently do you review production/service constraints or bottlenecks? 
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- --------------------- Finance Page 1------------------------ --}}
+
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        83%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 83%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>Finances</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Financial Stability</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    1. How stable is your business financially
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    2.Does your business prepare financial budgets or forecasts?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Profitability</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    3. How profitable is your business currently?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Cash Flow Management</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4. How effectively do you manage your cash flow?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    5. How frequently do you review forecast vs actual financial performance?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Revenue Growth</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    6. How would you rate your revenue growth trajectory?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Cost Control</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    7. How well do you control your expenses?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="startTitle">
+                                <h3>Financial Planning</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    8. How effectively do you plan your finances for the future?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="startTitle">
+                                <h3>Return On Investment</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    9. How satisfied are you with the return on investment from your business
+                                    activities?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- ------------------------ Finance Page 2---------------------- --}}
+
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        89%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 89%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>Finances</h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Financial Transparency</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    10. How transparent are your financial record and reporting?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Tax Compliance</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    11. How compliance are you with tax regulations?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Profit Margin </h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    12. How satisfied are you with your business profit mirgin?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    13. What is your business average gross margin?(The % of sales revenue after
+                                    deducting direct costs)
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    14. Does your business calculate the volume of sales required to "break even"?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    15. How satisfied are you with your business accountant?
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {{-- ----------------------------- Structure & System Page ---------------------}}
+
+                    <div class="form-section">
+                        <div class="logoAndProgress">
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset('public/logo.png') }}" alt="logo" class="img-fluid"
+                                    style="width: 10rem;">
+                                <div class="progressCtrl align-items-center w-100 d-flex">
+                                    <p class="progressTrack px-4">
+                                        100%
+                                    </p>
+                                    <div class="progress w-100" role="progressbar" aria-label="Example with label"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questonBox">
+                            <div class="startTitle">
+                                <h4>Structure & System </h4>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Organizational Structure Clarity</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    1. How clear and well-defined is your Organizational structure
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Organizational Structure Clarity</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    2. Workflow efficiency
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>System integration</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    3.How well integrated are your systems and processes accross departments
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Decision making process</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    4. How effective is your decision making process within your organisation
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Training and development programs</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    5. How effective are your traning and development programs in preparing employees
+                                    for their roles?
+
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Performance management systems</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    6. How effective are your performace management systems in providing feedback and
+                                    evaluating employee performance?
+
+                                </p>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
+                                </div>
+                                <div class="instraction d-flex align-items-center justify-content-between">
+                                    <p class="d-flex align-items-center">
+                                        <img src="{{ asset('public/left.png') }}" alt="left" class="img-fluid">
+                                        <span class="text-center">
+                                            Rarely
+                                        </span>
+                                    </p>
+
+                                    <p class="d-flex align-items-center">
+                                        <span class="text-center">
+                                            Regularly
+                                        </span>
+                                        <img src="{{ asset('public/right.png') }}" alt="left" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Standard operating proceduress(SOPs)</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    7. How well-established and followed are your standard operating procedures?
+                                </p>
+                                <div class="options py-4 justify-content-between ps-5">
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Sell</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Pass on</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Close</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Others</span>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" value="4" name="total_marks6">
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Customer Relationship Management(CRM) Systems</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    8. How effective is your CRM system managing and nurturing customer relationships?
+                                </p>
+                                <div class="options py-4 justify-content-between ps-5">
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Sell</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Pass on</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Close</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Others</span>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" value="4" name="total_marks6">
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>Regulatory compliance Systems</h3>
+                            </div>
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    9. How effectively do your business ensure compliance with regulations and company
+                                    standards?
+                                </p>
+                                <div class="options py-4 justify-content-between ps-5">
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Sell</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Pass on</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Close</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Others</span>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" value="4" name="total_marks6">
+                                </div>
+                            </div>
+
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    10.Do you have a WHS(workplace health and safety ) policy and/or procedure?
+                                </p>
+                                <div class="options py-4 justify-content-between ps-5">
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Sell</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Pass on</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Close</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="single align-items-start mb-3">
+                                        <div class="d-flex">
+                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
+                                            <span class="markTxt mt-0 ml-4">Others</span>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" value="4" name="total_marks6">
+                                </div>
+                            </div>
+
+                            <div class="startTitle">
+                                <h3>IT Infrastructure Reliability</h3>
+                            </div>
+
+
+                            <div class="singleQuestion">
+                                <p class="questionTitle">
+                                    11.How reliable is your IT infrastructure in supporting daily operations ?
                                 </p>
                                 <div class="options py-4 justify-content-between ps-5">
                                     <div class="single align-items-start mb-3">
