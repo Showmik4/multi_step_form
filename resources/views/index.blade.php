@@ -1230,7 +1230,7 @@
 
                             <div class="singleQuestion">
                                 <p class="questionTitle">
-                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    9. How frequently do you review progress against your business’s strategic plan or
                                     financial forecast modelling?
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
@@ -1279,7 +1279,7 @@
 
                             <div class="singleQuestion">
                                 <p class="questionTitle">
-                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    10. How frequently do you review progress against your business’s strategic plan or
                                     financial forecast modelling?
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
@@ -1328,7 +1328,7 @@
 
                             <div class="singleQuestion">
                                 <p class="questionTitle">
-                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    11. How frequently do you review progress against your business’s strategic plan or
                                     financial forecast modelling?
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
@@ -1377,7 +1377,7 @@
 
                             <div class="singleQuestion">
                                 <p class="questionTitle">
-                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    12. How frequently do you review progress against your business’s strategic plan or
                                     financial forecast modelling?
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
@@ -1426,7 +1426,7 @@
 
                             <div class="singleQuestion">
                                 <p class="questionTitle">
-                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    13. How frequently do you review progress against your business’s strategic plan or
                                     financial forecast modelling?
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
@@ -1475,7 +1475,7 @@
 
                             <div class="singleQuestion">
                                 <p class="questionTitle">
-                                    4. How frequently do you review progress against your business’s strategic plan or
+                                    14. How frequently do you review progress against your business’s strategic plan or
                                     financial forecast modelling?
                                 </p>
                                 <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
@@ -1558,10 +1558,6 @@
                                     <input type="hidden" value="4" name="total_marks6">
                                 </div>
                             </div>
-
-
-
-
                         </div>
                     </div>
 
@@ -1904,35 +1900,32 @@
                                 <p class="questionTitle">
                                     7. What amount of your revenue comes from repeat customers?
                                 </p>
-                                <div class="options py-4 justify-content-between ps-5">
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Sell</span>
-                                        </div>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Pass on</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Close</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Others</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
                                     </div>
-                                    <input type="hidden" value="4" name="total_marks6">
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                             </div>
 
@@ -1945,35 +1938,32 @@
                                     8.
                                     How effectively do you calculate and track customer lifetime value? 
                                 </p>
-                                <div class="options py-4 justify-content-between ps-5">
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Sell</span>
-                                        </div>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Pass on</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Close</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Others</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
                                     </div>
-                                    <input type="hidden" value="4" name="total_marks6">
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                             </div>
                         </div>
@@ -2313,35 +2303,32 @@
                                     15.Do you know how many new customers you need to attract and convert every month to
                                     reach your targeted revenue goals?
                                 </p>
-                                <div class="options py-4 justify-content-between ps-5">
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Sell</span>
-                                        </div>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Pass on</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Close</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Others</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
                                     </div>
-                                    <input type="hidden" value="4" name="total_marks6">
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                             </div>
 
@@ -2740,35 +2727,32 @@
                                 <p class="questionTitle">
                                     23.What is your Google Business or Trust Pilot rating?
                                 </p>
-                                <div class="options py-4 justify-content-between ps-5">
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Sell</span>
-                                        </div>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Pass on</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Close</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Others</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
                                     </div>
-                                    <input type="hidden" value="4" name="total_marks6">
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                             </div>
                         </div>
@@ -5329,35 +5313,32 @@
                                 <p class="questionTitle">
                                     7. How well-established and followed are your standard operating procedures?
                                 </p>
-                                <div class="options py-4 justify-content-between ps-5">
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Sell</span>
-                                        </div>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Pass on</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Close</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Others</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
                                     </div>
-                                    <input type="hidden" value="4" name="total_marks6">
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                             </div>
 
@@ -5369,35 +5350,32 @@
                                 <p class="questionTitle">
                                     8. How effective is your CRM system managing and nurturing customer relationships?
                                 </p>
-                                <div class="options py-4 justify-content-between ps-5">
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Sell</span>
-                                        </div>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Pass on</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Close</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Others</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
                                     </div>
-                                    <input type="hidden" value="4" name="total_marks6">
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                             </div>
 
@@ -5410,35 +5388,32 @@
                                     9. How effectively do your business ensure compliance with regulations and company
                                     standards?
                                 </p>
-                                <div class="options py-4 justify-content-between ps-5">
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Sell</span>
-                                        </div>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Pass on</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Close</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Others</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
                                     </div>
-                                    <input type="hidden" value="4" name="total_marks6">
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                             </div>
 
@@ -5447,35 +5422,32 @@
                                 <p class="questionTitle">
                                     10.Do you have a WHS(workplace health and safety ) policy and/or procedure?
                                 </p>
-                                <div class="options py-4 justify-content-between ps-5">
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Sell</span>
-                                        </div>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Pass on</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Close</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Others</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
                                     </div>
-                                    <input type="hidden" value="4" name="total_marks6">
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                             </div>
 
@@ -5488,35 +5460,32 @@
                                 <p class="questionTitle">
                                     11.How reliable is your IT infrastructure in supporting daily operations ?
                                 </p>
-                                <div class="options py-4 justify-content-between ps-5">
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="1" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Sell</span>
-                                        </div>
+                                <div class="options d-flex align-items-center py-4 justify-content-between ps-5">
+                                    <div class="single">
+                                        <input type="radio" value="1" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">1</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="2" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Pass on</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="2" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">2</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="3" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Close</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="3" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">3</span>
                                     </div>
-
-                                    <div class="single align-items-start mb-3">
-                                        <div class="d-flex">
-                                            <input type="radio" value="4" name="marks6" id="" class="form-check-input">
-                                            <span class="markTxt mt-0 ml-4">Others</span>
-                                        </div>
+                                    <div class="single">
+                                        <input type="radio" value="4" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">4</span>
                                     </div>
-                                    <input type="hidden" value="4" name="total_marks6">
+                                    <div class="single">
+                                        <input type="radio" value="5" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">5</span>
+                                    </div>
+                                    <div class="single">
+                                        <input type="radio" value="0" name="marks5" id="" class="form-check-input">
+                                        <span class="markTxt d-block">N/A</span>
+                                    </div>
+                                    <input type="hidden" value="5" name="total_marks5">
                                 </div>
                             </div>
                         </div>
