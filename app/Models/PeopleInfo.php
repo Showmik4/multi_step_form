@@ -16,6 +16,9 @@ class PeopleInfo extends Model
         'first_name',
         'last_name',
         'email', 
-        'total_marks',     
+        'total_marks',   
+        'last_financial_year_revenue',
+        'revenue_2023',
+        'revenue_2022', 
     ];
 }

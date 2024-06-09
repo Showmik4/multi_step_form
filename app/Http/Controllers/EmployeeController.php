@@ -55,7 +55,10 @@ class EmployeeController extends Controller
       $validated = $request->validate([
           'first_name' => 'required',
           'last_name' => 'required',
-          'email' => 'required|email',          
+          'email' => 'required|email',  
+          'last_financial_year_revenue'=> 'required',
+          'revenue_2023'=> 'required',
+          'revenue_2022'=> 'required',        
       ]);
 
       DB::beginTransaction();
@@ -64,7 +67,10 @@ class EmployeeController extends Controller
           $people_info = PeopleInfo::create([
               'first_name' => $validated['first_name'],
               'last_name' => $validated['last_name'],      
-              'email' => $validated['email'],        
+              'email' => $validated['email'],   
+              'last_financial_year_revenue' => $validated['last_financial_year_revenue'],   
+              'revenue_2023' => $validated['revenue_2023'],   
+              'revenue_2022' => $validated['revenue_2022'],        
           ]);
 
           // Collect answers
